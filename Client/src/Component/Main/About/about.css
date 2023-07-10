@@ -1,0 +1,82 @@
+.about_home{
+    background-color: whitesmoke;
+    width: 98.7vw;
+    margin-bottom: 2px;
+}
+.secContainer .title{
+    color: black;
+    padding-top: 30px;
+    line-height: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.secContainer .title p{
+    color: #38d16a;
+    font-size: 18px;
+    padding-top: 1.5rem;
+}
+
+.mainContent .singleItem h3{
+    font-weight: 700;
+    color: black;
+    padding: .5rem;
+}
+
+.mainContent .singleItem p{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: .5rem;
+    color: black;
+    opacity: 0.8;
+}
+
+.videoCard{
+    margin-top: 2rem;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.895), rgba(0, 0, 0, 0.79)),url(../../Assets/bedroom.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.videoCard .cardContent{
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+.videoCard .cardContent .cardText h2{
+    color: whitesmoke;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.videoCard .cardContent .cardText p{
+    color: whitesmoke;
+    opacity: .7;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.cardVedio{
+    border: 2px solid whitesmoke;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cardVedio video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:768px){
+ .about{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+ }
+}

@@ -1,0 +1,38 @@
+.dash_header {
+  margin-top: 2px;
+  background-color: black;
+  height: 20vh;
+}
+
+.dash_header {
+  color: #38d16a;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 5vh;
+}
+
+.dash_header_name {
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+
+.dash_header-path {
+  font-weight: 200;
+  font-size: 0.91rem;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 450px) {
+  .dash_header {
+    background-color: black;
+    height: 15vh;
+  }
+  .dash_header {
+    color: white;
+    padding-top: 8.5vh;
+    padding-left: 15px;
+  }
+}

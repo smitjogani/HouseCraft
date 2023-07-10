@@ -1,0 +1,71 @@
+.admin_designer_table {
+  height: 100vh;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.admin_desiger_heder {
+  font-size: 27px;
+  display: flex;
+  padding: 10px;
+}
+
+.designerTable {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+td {
+  border: 2px solid transparent;
+  border-collapse: collapse;
+  padding: 10px 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+td.d-flex {
+  display: flex;
+  align-items: center;
+}
+.tableRawHeader {
+  font-size: 20px;
+  font-weight: 500;
+  color: whitesmoke;
+  background-color: black;
+  border: none;
+}
+
+.tableRawBody {
+  background-color: white;
+  font-size: 18px;
+}
+
+.tableRawBody .table_profile_img img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.adminDesignerBtn {
+  font-size: 16px;
+  font-weight: 400;
+  color: #38d16a;
+  border: 1px solid transparent;
+  background-color: black;
+  border-radius: 11px;
+  margin-left: 9px;
+  cursor: pointer;
+  padding: 6px 14px;
+}
+
+@media screen and (max-width: 480px) {
+    .designerTable {
+        width: 100vw;
+        padding-right: 40px;
+        margin-left: 30px;
+    }
+}

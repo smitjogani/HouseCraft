@@ -1,0 +1,97 @@
+.designer_profile {
+  background-color: whitesmoke;
+}
+
+.profileWrapper {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  width: 750px;
+  display: flex;
+  box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.4);
+}
+
+.profileWrapper .profileLeft {
+  width: 100%;
+  background-color: black;
+  color: whitesmoke;
+  padding: 30px 25px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+}
+
+.profileWrapper .profileLeft .designerProfilePic {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  /* height: 290px; */
+  /* width: 250px; */
+  
+}
+
+.profileWrapper .profileLeft .designerProfileName {
+  margin-bottom: 9px;
+  font-size: 23px;
+}
+
+.designerProfileTitle {
+  font-size: 30px;
+  margin-left: -19px;
+}
+
+.designerProfileTitle span {
+  color: #38d16a;
+}
+
+.profileWrapper .profileLeft .designerProfileDetails {
+  font-size: 13px;
+}
+
+.profileWrapper .profileRight {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 30px 25px;
+}
+
+.profileWrapper .profileRight .profileData p{
+  margin-bottom: 10px;
+}
+
+.designerProfileInfo .designerProfileTitle {
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom : 1px solid grey;
+  text-transform: uppercase;
+  letter-spacing: 5px;  
+}
+
+.profileDetail{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.designerProfileSubmit{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.designerProfileSubmitBtn{
+  margin-top: 10px;
+  padding: 11px;
+  border-radius: 14px;
+  background: black;
+  font-size: 16px;
+  color: #38d16a;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.designerProfileSubmitBtn:hover{
+  color: black;
+  background-color: #38d16a;
+}

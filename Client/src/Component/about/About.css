@@ -1,0 +1,165 @@
+.about_main{
+  height: 76.7vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.about_main .heading {
+  text-align: left;
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.about_main .heading .bg1{
+  width: 100vw;
+}
+
+.heading .pic img {
+  width: 500px;
+  padding-top: 23%;
+}
+
+.heading h1 {
+  color: #38d16a;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.heading h5 {
+  color: rgba(0, 0, 0, 0.557);
+  font-size: 15px;
+  line-height: 30px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+.about p {
+  font: 15px;
+  color: black;
+  padding-right: 30px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.back {
+  height: 40vh;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.back img {
+  height: 50vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.back::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.683);
+  z-index: -1;
+}
+
+.back .container {
+  color: black;
+  padding: 90px 50px;
+}
+
+.back h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.phase {
+  margin-bottom: 80px;
+}
+
+@media screen and(max-width:768px) {
+  .back img {
+    height: 35vh;
+  }
+
+  .back h1 {
+    font-size: 30px;
+  }
+
+  .back::after {
+    height: 35vh;
+  }
+
+  .pic img {
+    width: 250px;
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+
+  .p2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  section {
+    height: 100vh;
+  }
+
+  .back {
+    height: 30vh;
+    margin-bottom: 70px;
+  }
+
+  .back .container {
+    font-size: smaller;
+  }
+
+  .back img {
+    height: 35vh;
+  }
+
+  .back h1 {
+    font-size: 30px;
+  }
+
+  .back::after {
+    height: 35vh;
+  }
+
+  .p2,
+  .pic img {
+    display: none;
+  }
+
+  .phase {
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mtop {
+    max-width: 100%;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+  }
+  .about p {
+    line-height: 30px;
+    display: inline;
+  }
+
+  .heading h1 {
+    font-size: 25px;
+  }
+}

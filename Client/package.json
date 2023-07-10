@@ -1,0 +1,72 @@
+{
+  "name": "hs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.15",
+    "@mui/styled-engine-sc": "^5.10.14",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.3.3",
+    "apexcharts": "^3.37.0",
+    "axios": "^1.3.4",
+    "chart.js": "^2.7.3",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^8.5.4",
+    "hybrid-crypto-js": "^0.2.4",
+    "is-empty": "^1.2.0",
+    "isempty": "^0.0.1",
+    "isnullorempty": "^1.0.1",
+    "jquery": "^3.6.3",
+    "jspdf": "^2.5.1",
+    "lodash.isempty": "^4.4.0",
+    "pdfkit": "^0.13.0",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-data-table-component": "^7.5.3",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-redux": "^8.0.5",
+    "react-report-builder": "^4.0.20",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.1",
+    "react-to-print": "^2.14.12",
+    "react-toastify": "^9.1.2",
+    "recharts": "^2.2.0",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.2",
+    "style-component": "^0.0.1",
+    "styled-components": "^5.3.6",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

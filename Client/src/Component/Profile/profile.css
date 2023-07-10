@@ -1,0 +1,66 @@
+.designer_profile {
+  height: 100vh;
+  width: 40%;
+  padding: 10px;
+  padding-left: 20px;
+  background-color: whitesmoke;
+  margin: 5px;
+  overflow: scroll;
+  border: 3px solid black;
+}
+
+.main_profile {
+  display: flex;
+  justify-content: space-between;
+  margin: 18px 0;
+  border-bottom: 1px solid grey;
+}
+
+.profilePic {
+  width: 160px;
+  margin-top: 12%;
+  margin-left: 5%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 80px;
+  border: 1px solid black;
+}
+
+.person_details {
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.person_details .designer_name {
+  font-size: 24px;
+  color: #38d16a;
+  font-weight: 400;
+}
+
+.person_details .mobno {
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+address {
+  font-weight: 500;
+  color: black;
+}
+
+.profile_gallary {
+  display: grid;
+}
+
+.profile_gallary .pg {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 1rem;
+}
+
+@media screen and(min-width:768px) {
+  .designer_profile {
+    background-color: #38d16a;
+  }
+}

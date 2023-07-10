@@ -1,0 +1,57 @@
+.designerChart {
+  height: 100vh;
+  width: 100%;
+  display: block;
+  border-color: whitesmoke;
+}
+
+.designerCharts {
+  display: grid;
+  grid-template-columns: 2fr auto;
+}
+
+.barchart {
+  padding-left: 30px;
+  padding-right: 60px;
+  padding-top: 10px;
+}
+
+.pieChart {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+  .designerChart {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .designerCharts {
+    width: 100vw;
+    overflow: hidden;
+    display: grid;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .designerChart {
+    overflow: scroll;
+    padding: 0;
+    margin: 0;
+  }
+
+  .barchart {
+    width: auto;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .designerChart {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+}

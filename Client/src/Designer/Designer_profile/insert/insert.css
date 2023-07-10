@@ -1,0 +1,153 @@
+.insertBody {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: whitesmoke;
+}
+
+.insertContainer {
+  max-width: 800px;
+  width: 100%;
+  background-color: white;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.insertContainer .insert-title {
+  font-size: 35px;
+  font-weight: 500;
+  margin-left: -11px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  position: relative;
+}
+
+.insertContainer .insert-title span{
+  color: #38d16a;
+}
+
+.insertContainer .insert-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+}
+
+.insert-content form .insert-user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* margin: 20px 0 12px 0; */
+}
+
+form .insert-user-details .insert-input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+form .insert-input-box span.insert-details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.insert-user-details .insert-input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid black;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.insert-user-details .insert-input-box input:focus,
+.insert-user-details .insert-input-box input:valid {
+  border-color: black;
+}
+
+form .insert-gender-details .insert-gender-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+form .insert-category {
+  display: flex;
+  width: 80%;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+form .insert-category label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+form .insert-category label .insert-dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  /* margin-right: px; */
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+#dot-1:checked ~ .insert-category label .one,
+#dot-2:checked ~ .insert-category label .two,
+#dot-3:checked ~ .insert-category label .three {
+  background: #38d16a;
+  border-color: black;
+}
+form input[type="radio"] {
+  display: none;
+}
+form .insert-button {
+  height: 45px;
+  margin: 35px 0;
+}
+form .insert-button input {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #38d16a;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: black;
+}
+form .insert-button input:hover {
+  /* transform: scale(0.99); */
+  background:#38d16a;
+  color: black;
+}
+@media (max-width: 584px) {
+  .insertContainer {
+    max-width: 100%;
+  }
+  form .user-details .insert-input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .insert-category {
+    width: 100%;
+  }
+  .insert-content form .insert-user-details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .insert-user-details::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+@media (max-width: 459px) {
+  .inseContainer .insert-content .insert-category {
+    flex-direction: column;
+  }
+}

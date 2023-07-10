@@ -1,0 +1,145 @@
+#services {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  padding-top: 20px;
+}
+
+.blog_main {
+  width: 100%;
+}
+
+.s-box {
+  background-color: whitesmoke;
+  width: 350px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.blog_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.b-container {
+  display: inline-flex;
+}
+
+.s-b-img {
+  width: 100%;
+  height: 70%;
+}
+
+.s-b-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.designer_blog_text {
+  width: 100%;
+  height: 30%;
+  line-height: 20px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.designerAbout {
+  color: whitesmoke;
+}
+
+.s-b-text .designerAbout {
+  margin: 0px;
+
+  font-size: 1.1rem;
+  font-family: calibri;
+  display: block;
+  padding-top: 6px;
+  display: -webkit-box;
+  padding-bottom: 0px;
+  max-width: 100%;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mainContactDesigner {
+  color: #38d16a;
+  background-color: black;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid #38d16a;
+  margin: 5px;
+  padding: 10px;
+  margin-top: 19px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.s-b-text .designerAbout:hover {
+  cursor: pointer;
+}
+
+.designerAbout span {
+  color: #38d16a;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.designerDesignEdit {
+  color: #38d16a;
+  background-color: black;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #38d16a;
+  margin: 5px;
+  padding: 10px;
+  margin-top: 19px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.s-type {
+  font-family: calibri;
+  color: whitesmoke;
+  background-color: #151515;
+  padding: 10px 15px;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+.s-box:hover {
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .s-box {
+    width: 300px;
+    height: 400px;
+  }
+}

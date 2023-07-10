@@ -1,0 +1,60 @@
+.b_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.b_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.b_container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.branding {
+  background: black;
+  /* margin-top: 35px; */
+  padding: 80px 0;
+}
+
+.branding h1 {
+  font-size: 40px;
+  color: #38d16a;
+  margin-right: 20px;
+}
+
+.branding h2 {
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 22px;
+  margin: 10px 0 20px 0;
+}
+
+.branding p {
+  color: whitesmoke;
+  opacity: 0.9;
+}
+
+.box #text {
+  background-color: whitesmoke;
+  box-shadow: 0 5px 20px 0 rgba(0 0 0 / 6%);
+  padding: 30px;
+  margin: 20px;
+  margin-top: -30px;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .branding {
+    margin: 0;
+    padding: 0;
+    height: 17vh;
+    width: 100vw;
+  }
+  .b_container {
+    padding: 20px;
+  }
+}
