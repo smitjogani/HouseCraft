@@ -58,22 +58,22 @@ const detail = [
     Size: "2000 X 1000ft",
     date: "13 January 2023",
   },
-  {
-    id: 7,
-    img: img7,
-    title: "Shop Design",
-    Location: "Australia",
-    date: "17 January 2023",
-    Size: "360 X 140ft",
-  },
-  {
-    id: 8,
-    img: img8,
-    title: "Kitchen Design",
-    Location: "Mumbai",
-    Size: "30 X 40ft",
-    date: "06 February 2023",
-  },
+  // {
+  //   id: 7,
+  //   img: img7,
+  //   title: "Shop Design",
+  //   Location: "Australia",
+  //   date: "17 January 2023",
+  //   Size: "360 X 140ft",
+  // },
+  // {
+  //   id: 8,
+  //   img: img8,
+  //   title: "Kitchen Design",
+  //   Location: "Mumbai",
+  //   Size: "30 X 40ft",
+  //   date: "06 February 2023",
+  // },
 ];
 
 const Blog = () => {
